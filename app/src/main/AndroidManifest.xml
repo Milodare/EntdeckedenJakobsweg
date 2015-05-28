@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jakobsweg.entdeckedenjakobsweg" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TagebuchAuswahlStreckenabschnitt"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfoHoehepunkt"
+            android:label="@string/title_activity_info_hoehepunkt" >
+        </activity>
+        <activity
+            android:name=".Willkommen"
+            android:label="@string/title_activity_willkommen" >
+        </activity>
+        <activity
+            android:name=".PersoenlicheSeite"
+            android:label="@string/title_activity_persoenliche_seite" >
+        </activity>
+        <activity
+            android:name=".UebersichtStreckenabschnitte"
+            android:label="@string/title_activity_uebersicht_streckenabschnitte" >
+        </activity>
+        <activity
+            android:name=".InformationenStreckenabschnitt"
+            android:label="@string/title_activity_informationen_streckenabschnitt" >
+        </activity>
+        <activity
+            android:name=".TagebuchEintrag"
+            android:label="@string/title_activity_tagebuch_eintrag" >
+        </activity>
+        <activity
+            android:name=".EintragTagebuch"
+            android:label="@string/title_activity_eintrag_tagebuch" >
+        </activity>
+        <activity
+            android:name=".info_streckenabschnitt_etappe1"
+            android:label="@string/title_activity_info_streckenabschnitt_etappe1" >
+        </activity>
+    </application>
+
+</manifest>

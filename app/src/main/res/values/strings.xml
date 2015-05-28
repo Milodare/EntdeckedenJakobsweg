@@ -1,0 +1,48 @@
+<resources>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name">Entdecke den Jakobsweg</string>
+
+    <string name="title_activity_willkommen">Willkommen</string>
+    <string name="namenseingabe">Bitte gib Deinen Namen ein:</string>
+    <string name="Anmeldebutton">Los geht die Reise!</string>
+
+    <string name="title_activity_persoenliche_seite">PersoenlicheSeite</string>
+    <string name="profil">Profil</string>
+    <string name="einstellungen">Einstellungen</string>
+    <string name="logout">Logout</string>
+    <string name="streckenabschnitte">Streckenabschnitte</string>
+    <string name="tagebuch">Tagebuch</string>
+    <string name="stimmungsbarometer">Stimmungsbarometer</string>
+    <string name="tippsundtricks">Tipps und Tricks</string>
+
+    <string name="title_activity_uebersicht_streckenabschnitte">UebersichtStreckenabschnitte
+    </string>
+    <string name="etappe1">1. Etappe: St-Jean-Pied-de-Port – Roncesvalles</string>
+    <string name="etappe2">2. Etappe: Roncesvalles – Zubiri</string>
+    <string name="etappe3">3. Etappe: Zubiri – Pamplona</string>
+    <string name="etappe4">4. Etappe: Pamplona – Puente la Reina</string>
+
+     <string name="title_activity_informationen_streckenabschnitt">InformationenStreckenabschnitt
+    </string>
+
+    <string name="title_activity_info_hoehepunkt">InfoHoehepunkt</string>
+
+    <string name="title_activity_tagebuch_auswahl_streckenabschnitt">TagebuchAuswahlStreckenabschnitt</string>
+    <string name="streckenabschnitt1">Gugelhupf-Strecke</string>
+    <string name="streckenabschnitt3">Käsekuchen-Strecke</string>
+    <string name="streckenabschnitt2">Marmorkuchen-Strecke</string>
+    <string name="streckenabschnitt4">Erdbeertorten-Strecke</string>
+    <string name="showinfo1">Anzeigen</string>
+    <string name="showinfo2">Anzeigen</string>
+
+    <string name="title_activity_eintrag_tagebuch">EintragTagebuch</string>
+    <string name="speichern">speichern</string>
+    <string name="hochladen">Erfahrungen teilen</string>
+    <string name="title_activity_info_streckenabschnitt_etappe1">info_streckenabschnitt_etappe1
+    </string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+</resources>
