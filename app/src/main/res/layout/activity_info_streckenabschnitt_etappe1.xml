@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="1. Etappe"
+        android:text="1. Etappe ;O"
         android:id="@+id/textView3" />
 
     <TextView
