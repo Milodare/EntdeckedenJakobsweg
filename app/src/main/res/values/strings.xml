@@ -37,6 +37,7 @@
     <string name="showinfo2">Anzeigen</string>
 
     <string name="title_activity_eintrag_tagebuch">EintragTagebuch</string>
+    <string name="title_activity_tagebuch_eintrag">TagebuchEintrag</string>
     <string name="speichern">speichern</string>
     <string name="hochladen">Erfahrungen teilen</string>
     <string name="title_activity_info_streckenabschnitt_etappe1">info_streckenabschnitt_etappe1

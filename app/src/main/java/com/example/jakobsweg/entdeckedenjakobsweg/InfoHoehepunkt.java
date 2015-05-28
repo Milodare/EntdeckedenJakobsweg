@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
-public class DisplayMessageActivity extends ActionBarActivity {
+public class InfoHoehepunkt extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +52,7 @@ public class DisplayMessageActivity extends ActionBarActivity {
 
     /////////////////own stuff//////////////
 
+    /*
     int merker = R.drawable.abc;
 
     public void changeImage(View view) {
@@ -67,5 +68,6 @@ public class DisplayMessageActivity extends ActionBarActivity {
             }
         }
     }
+    */
 }
 

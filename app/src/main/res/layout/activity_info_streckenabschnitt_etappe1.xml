@@ -30,7 +30,7 @@
 
     <ImageView
 
-        android:src="@drawable/KarteEtappe1"
+        android:src="@drawable/karte_etappe1"
         android:id="@+id/KarteEtappe1_image"
         android:layout_width="113dp"
         android:layout_height="172dp"
@@ -197,7 +197,7 @@
         <ImageButton
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/AubergeOrission"
+            android:src="@drawable/auberge_orission"
             android:id="@+id/imageButton" />
 
         <Space
@@ -209,7 +209,7 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:id="@+id/imageButton2"
-            android:src="@drawable/KlosterherbergeRoncesvalles" />
+            android:src="@drawable/llosterherberge_roncesvalles" />
 
     </LinearLayout>
 
