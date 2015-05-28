@@ -17,10 +17,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".InfoHoehepunkt"
-            android:label="@string/title_activity_info_hoehepunkt" >
-        </activity>
-        <activity
             android:name=".Willkommen"
             android:label="@string/title_activity_willkommen" >
         </activity>
