@@ -29,7 +29,7 @@
             android:label="@string/title_activity_uebersicht_streckenabschnitte" >
         </activity>
         <activity
-            android:name=".InformationenStreckenabschnitt"
+            android:name=".InformationenStreckenabschnitt2"
             android:label="@string/title_activity_informationen_streckenabschnitt" >
         </activity>
         <activity
