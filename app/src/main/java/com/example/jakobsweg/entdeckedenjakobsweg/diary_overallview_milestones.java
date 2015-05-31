@@ -53,5 +53,5 @@ public class diary_overallview_milestones extends ActionBarActivity {
    //     String cityText;
         // switch (selectedId)
 
-    }
+    //}
 }

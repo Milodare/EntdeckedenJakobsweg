@@ -26,7 +26,7 @@
         </activity>
         <activity
             android:name=".overallview_milestones"
-            android:label="@string/title_activity_uebersicht_streckenabschnitte" >
+            android:label="@string/title_activity_overallview_milestones" >
         </activity>
         <activity
             android:name=".TagebuchEintrag"
