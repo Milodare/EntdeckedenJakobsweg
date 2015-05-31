@@ -16,23 +16,19 @@
     <string name="stimmungsbarometer">Stimmungsbarometer</string>
     <string name="tippsundtricks">Tipps und Tricks</string>
 
-    <string name="title_activity_uebersicht_streckenabschnitte">UebersichtStreckenabschnitte
-    </string>
-    <string name="etappe1">1. Etappe: St-Jean-Pied-de-Port – Roncesvalles</string>
-    <string name="etappe2">2. Etappe: Roncesvalles – Zubiri</string>
-    <string name="etappe3">3. Etappe: Zubiri – Pamplona</string>
-    <string name="etappe4">4. Etappe: Pamplona – Puente la Reina</string>
-
-     <string name="title_activity_informationen_streckenabschnitt">InformationenStreckenabschnitt
-    </string>
+    <string name="title_activity_overallview_milestones">overallviewmilestones</string>
+    <string name="milestone11">11. Etappe: Belorado - San Juan de Ortega</string>
+    <string name="milestone12">12. Etappe: San Juan de Ortega - Burgos</string>
+    <string name="milestone19">19. Etappe: Reliegos - León</string>
+    <string name="milestone23">23. Etappe: Foncebadón - Ponferrada</string>
 
     <string name="title_activity_info_hoehepunkt">InfoHoehepunkt</string>
 
-    <string name="title_activity_tagebuch_auswahl_streckenabschnitt">TagebuchAuswahlStreckenabschnitt</string>
-    <string name="streckenabschnitt1">Gugelhupf-Strecke</string>
-    <string name="streckenabschnitt3">Käsekuchen-Strecke</string>
-    <string name="streckenabschnitt2">Marmorkuchen-Strecke</string>
-    <string name="streckenabschnitt4">Erdbeertorten-Strecke</string>
+    <string name="title_activity_diary_overallview_milestones">diaryoverallviewmilestones</string>
+    <string name="milestone_11">11. Etappe: Belorado - San Juan de Ortega</string>
+    <string name="milestone_12">12. Etappe: San Juan de Ortega - Burgos</string>
+    <string name="milestone_19">19. Etappe: Reliegos - León</string>
+    <string name="milestone_23">23. Etappe: Foncebadón - Ponferrada</string>
     <string name="showinfo1">Anzeigen</string>
     <string name="showinfo2">Anzeigen</string>
 
@@ -40,10 +36,9 @@
     <string name="title_activity_tagebuch_eintrag">TagebuchEintrag</string>
     <string name="speichern">speichern</string>
     <string name="hochladen">Erfahrungen teilen</string>
-    <string name="title_activity_info_streckenabschnitt_etappe1">info_streckenabschnitt_etappe1
-    </string>
+    <string name="title_activity_info_streckenabschnitt_etappe1">info_streckenabschnitt_etappe1</string>
 
-    <string name="hello_world">Hello world!</string>
+
 
 
 </resources>
