@@ -1,29 +1,24 @@
 package com.example.jakobsweg.entdeckedenjakobsweg;
 
-import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.RadioGroup;
-import android.widget.Toast;
 
 
-public class TagebuchAuswahlStreckenabschnitt extends ActionBarActivity {
+public class information_milestone_19 extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tagebuch_auswahl_streckenabschnitt);
+        setContentView(R.layout.activity_information_milestone_19);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_tagebuch_auswahl_streckenabschnitt, menu);
+        getMenuInflater().inflate(R.menu.menu_information_milestone_19, menu);
         return true;
     }
 
@@ -37,24 +32,8 @@ public class TagebuchAuswahlStreckenabschnitt extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
-
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    //////////////////////own stuff - Activity 6   ///////////////
-
-
-
-
-
-
-    public void showCity1 (View view){
-        RadioGroup radioCities=(RadioGroup) findViewById(R.id.streckenabschnitte);
-        int selectedId=radioCities.getCheckedRadioButtonId();
-        String cityText;
-        // switch (selectedId)
-
     }
 }

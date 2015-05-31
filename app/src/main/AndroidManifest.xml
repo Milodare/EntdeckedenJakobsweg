@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".TagebuchAuswahlStreckenabschnitt"
+            android:name=".diary_overallview_milestones"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,12 +25,8 @@
             android:label="@string/title_activity_persoenliche_seite" >
         </activity>
         <activity
-            android:name=".UebersichtStreckenabschnitte"
+            android:name=".overallview_milestones"
             android:label="@string/title_activity_uebersicht_streckenabschnitte" >
-        </activity>
-        <activity
-            android:name=".InformationenStreckenabschnitt2"
-            android:label="@string/title_activity_informationen_streckenabschnitt" >
         </activity>
         <activity
             android:name=".TagebuchEintrag"
@@ -41,7 +37,7 @@
             android:label="@string/title_activity_eintrag_tagebuch" >
         </activity>
         <activity
-            android:name=".info_streckenabschnitt_etappe1"
+            android:name=".information_milestone_11"
             android:label="@string/title_activity_info_streckenabschnitt_etappe1" >
         </activity>
     </application>

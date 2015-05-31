@@ -1,24 +1,24 @@
 package com.example.jakobsweg.entdeckedenjakobsweg;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class UebersichtStreckenabschnitte extends ActionBarActivity {
+public class information_milestone_12 extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_uebersicht_streckenabschnitte);
+        setContentView(R.layout.activity_information_milestone_12);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_uebersicht_streckenabschnitte, menu);
+        getMenuInflater().inflate(R.menu.menu_information_milestone_12, menu);
         return true;
     }
 

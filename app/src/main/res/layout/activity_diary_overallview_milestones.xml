@@ -4,66 +4,78 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.UebersichtStreckenabschnitte"
+    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.diaryoverallviewmilestones"
     android:orientation="vertical"
     android:weightSum="1">
-
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Übersicht der Streckenabschnitte"
-         />
-
+        android:text="Tagebuch"
+        android:layout_gravity="center_horizontal" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.11" />
+        android:layout_weight="0.07" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Bitte wähle eine Etappe aus, um mehr Informationen zu erhalten!"
-         />
+        android:text="Bitte wähle Deinen heutigen Tagesabschnitt aus, um einen Tagebucheintrag zu verfassen."/>
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.19" />
+        android:layout_weight="0.08" />
 
     <RadioGroup
+        android:id="@+id/milestones"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Etappe: St-Jean-Pied-de-Port–Roncesvalles"
-            android:id="@+id/etappe1" />
+            android:text="11. Etappe: Belorado - San Juan de Ortega"
+            android:id="@+id/radio_milestone_11"
+            android:onClick="showmilestone_11"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2. Etappe: Roncesvalles – Zubiri"
-            android:id="@+id/etappe2" />
+            android:text="12. Etappe: San Juan de Ortega - Burgos"
+            android:id="@+id/radio_milestone_12" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3. Etappe: Zubiri – Pamplona"
-            android:id="@+id/etappe3" />
+            android:text="19. Etappe: Reliegos - León"
+            android:id="@+id/radio_milestone_13" />
+
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4. Etappe: Pamplona – Puente la Reina"
-            android:id="@+id/etappe4" />
+            android:text="23. Etappe: Foncebadón - Ponferrada"
+            android:id="@+id/radio_milestone_23" />
+    </RadioGroup>
 
-        </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/showinfo1"
+        android:onClick="showCity1"
+        android:id="@+id/button3" />
 
 
 
 </LinearLayout>
+
+
+
