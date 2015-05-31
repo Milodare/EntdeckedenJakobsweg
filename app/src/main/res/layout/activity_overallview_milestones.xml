@@ -41,25 +41,25 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="11. Etappe: Belorado - San Juan de Ortega"
+            android:text="@string/milestone_11"
             android:id="@+id/radio_milestone11" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="12. Etappe: San Juan de Ortega - Burgos"
+            android:text="@string/milestone_12"
             android:id="@+id/radio_milestone12" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="19. Etappe: Reliegos - León"
+            android:text="@string/milestone_19"
             android:id="@+id/radio_milestone19" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="23. Etappe: Foncebadón - Ponferrada"
+            android:text="@string/milestone_23"
             android:id="@+id/radio_milestone23" />
 
         </RadioGroup>
