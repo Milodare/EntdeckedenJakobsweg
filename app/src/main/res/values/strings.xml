@@ -3,11 +3,11 @@
 
     <string name="app_name">Entdecke den Jakobsweg</string>
 
-    <string name="title_activity_willkommen">Willkommen</string>
+    <string name="title_activity_welcome">Welcome</string>
     <string name="namenseingabe">Bitte gib Deinen Namen ein:</string>
     <string name="Anmeldebutton">Los geht die Reise!</string>
 
-    <string name="title_activity_persoenliche_seite">PersoenlicheSeite</string>
+    <string name="title_activity_personal_administration">personaladministration</string>
     <string name="profil">Profil</string>
     <string name="einstellungen">Einstellungen</string>
     <string name="logout">Logout</string>

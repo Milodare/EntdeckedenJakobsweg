@@ -6,19 +6,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class PersoenlicheSeite extends ActionBarActivity {
+public class personal_administration extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_persoenliche_seite);
+        setContentView(R.layout.activity_personal_administration);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_persoenliche_seite, menu);
+        getMenuInflater().inflate(R.menu.menu_personal_administration, menu);
         return true;
     }
 

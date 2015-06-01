@@ -17,12 +17,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Willkommen"
-            android:label="@string/title_activity_willkommen" >
+            android:name=".welcome"
+            android:label="@string/title_activity_welcome" >
         </activity>
         <activity
-            android:name=".PersoenlicheSeite"
-            android:label="@string/title_activity_persoenliche_seite" >
+            android:name=".personal_administration"
+            android:label="@string/title_activity_personal_administration" >
         </activity>
         <activity
             android:name=".overallview_milestones"
