@@ -4,7 +4,7 @@
     <string name="app_name">Entdecke den Jakobsweg</string>
 
     <string name="title_activity_welcome">Willkommen</string>
-    <string name="namenseingabe">Bitte gib Deinen Namen ein:</string>
+    <string name="insert_name">Verrat uns Deinen Namen</string>
     <string name="Anmeldebutton">Los geht die Reise!</string>
 
     <string name="title_activity_personal_administration">Persönliche Seite</string>

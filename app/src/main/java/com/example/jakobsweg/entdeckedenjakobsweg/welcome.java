@@ -1,9 +1,12 @@
 package com.example.jakobsweg.entdeckedenjakobsweg;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
 
 
 public class welcome extends ActionBarActivity {
@@ -36,4 +39,18 @@ public class welcome extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
+    // own stuff //
+
+    public void send_name(View view) {
+        EditText editText = (EditText) findViewById(R.id.insert_name);
+        String message = editText.getText().toString();
+
+        Intent intent = new Intent(this, personal_administration.class);
+        intent.putExtra("EXTRA_MESSAGE", "Hallo " + message + ". Deine Reise geht los!");
+        startActivity(intent);
+    }
+
+
 }
