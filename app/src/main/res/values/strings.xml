@@ -3,11 +3,11 @@
 
     <string name="app_name">Entdecke den Jakobsweg</string>
 
-    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_welcome">Willkommen</string>
     <string name="namenseingabe">Bitte gib Deinen Namen ein:</string>
     <string name="Anmeldebutton">Los geht die Reise!</string>
 
-    <string name="title_activity_personal_administration">personaladministration</string>
+    <string name="title_activity_personal_administration">Persönliche Seite</string>
     <string name="profil">Profil</string>
     <string name="einstellungen">Einstellungen</string>
     <string name="logout">Logout</string>
@@ -16,11 +16,11 @@
     <string name="stimmungsbarometer">Stimmungsbarometer</string>
     <string name="tippsundtricks">Tipps und Tricks</string>
 
-    <string name="title_activity_overallview_milestones">overallviewmilestones</string>
+    <string name="title_activity_overallview_milestones">Übersicht der Etappen</string>
 
-    <string name="title_activity_info_hoehepunkt">InfoHoehepunkt</string>
+    <string name="title_activity_info_hoehepunkt">Höhepunktinformation</string>
 
-    <string name="title_activity_diary_overallview_milestones">diaryoverallviewmilestones</string>
+    <string name="title_activity_diary_overallview_milestones">Tagebuch-Übersicht der Etappen</string>
     <string name="milestone_11">11. Etappe: Belorado - San Juan de Ortega</string>
     <string name="milestone_12">12. Etappe: San Juan de Ortega - Burgos</string>
     <string name="milestone_19">19. Etappe: Reliegos - León</string>
@@ -28,11 +28,12 @@
     <string name="showinfo1">Anzeigen</string>
     <string name="showinfo2">Anzeigen</string>
 
-    <string name="title_activity_eintrag_tagebuch">EintragTagebuch</string>
-    <string name="title_activity_tagebuch_eintrag">TagebuchEintrag</string>
+    <string name="title_activity_diary_entry">Eintrag Tagebuch</string>
     <string name="speichern">speichern</string>
     <string name="hochladen">Erfahrungen teilen</string>
-    <string name="title_activity_info_streckenabschnitt_etappe1">info_streckenabschnitt_etappe1</string>
+
+    <string name="title_activity_info_streckenabschnitt_etappe1">Test</string>
+
 
 
 

@@ -6,19 +6,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class EintragTagebuch extends ActionBarActivity {
+public class diary_entry extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_eintrag_tagebuch);
+        setContentView(R.layout.activity_diary_entry);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_eintrag_tagebuch, menu);
+        getMenuInflater().inflate(R.menu.menu_diary_entry, menu);
         return true;
     }
 

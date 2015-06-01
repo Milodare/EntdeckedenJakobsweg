@@ -29,12 +29,8 @@
             android:label="@string/title_activity_overallview_milestones" >
         </activity>
         <activity
-            android:name=".TagebuchEintrag"
-            android:label="@string/title_activity_tagebuch_eintrag" >
-        </activity>
-        <activity
-            android:name=".EintragTagebuch"
-            android:label="@string/title_activity_eintrag_tagebuch" >
+            android:name=".diary_entry"
+            android:label="@string/title_activity_diary_entry" >
         </activity>
         <activity
             android:name=".information_milestone_11"
