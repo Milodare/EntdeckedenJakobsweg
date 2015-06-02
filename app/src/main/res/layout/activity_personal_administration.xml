@@ -49,6 +49,13 @@
         </LinearLayout>
 
 
+    <TextView
+        android:id="@+id/message_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         />
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,7 +78,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Streckenabschnitte"
-        android:id="@+id/streckenabschnitte" />
+        android:id="@+id/streckenabschnitte"
+        android:onClick="open_overallview_milestones"/>
 
     <Button
         android:layout_width="wrap_content"

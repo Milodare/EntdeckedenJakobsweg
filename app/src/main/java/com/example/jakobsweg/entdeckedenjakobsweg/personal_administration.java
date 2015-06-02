@@ -1,9 +1,11 @@
 package com.example.jakobsweg.entdeckedenjakobsweg;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class personal_administration extends ActionBarActivity {
@@ -35,5 +37,13 @@ public class personal_administration extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    ///own stuff///
+
+    public void open_overallview_milestones (View view){
+
+        Intent intent= new Intent(this, overallview_milestones.class);
+        startActivity(intent);
     }
 }
