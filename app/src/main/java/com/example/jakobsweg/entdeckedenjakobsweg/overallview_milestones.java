@@ -1,9 +1,11 @@
 package com.example.jakobsweg.entdeckedenjakobsweg;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class overallview_milestones extends ActionBarActivity {
@@ -35,5 +37,31 @@ public class overallview_milestones extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    ///own stuff///
+
+    public void open_information_milestone_11 (View view){
+
+        Intent intent= new Intent(this, information_milestone_11.class);
+        startActivity(intent);
+    }
+
+    public void open_information_milestone_12 (View view){
+
+        Intent intent= new Intent(this, information_milestone_12.class);
+        startActivity(intent);
+    }
+
+    public void open_information_milestone_19 (View view){
+
+        Intent intent= new Intent(this, information_milestone_19.class);
+        startActivity(intent);
+    }
+
+    public void open_information_milestone_23 (View view){
+
+        Intent intent= new Intent(this, information_milestone_23.class);
+        startActivity(intent);
     }
 }

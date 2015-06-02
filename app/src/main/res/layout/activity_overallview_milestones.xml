@@ -42,25 +42,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/milestone_11"
-            android:id="@+id/radio_milestone11" />
+            android:id="@+id/radio_milestone11"
+            android:onClick="open_information_milestone_11"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/milestone_12"
-            android:id="@+id/radio_milestone12" />
+            android:id="@+id/radio_milestone12"
+            android:onClick="open_information_milestone_12"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/milestone_19"
-            android:id="@+id/radio_milestone19" />
+            android:id="@+id/radio_milestone19"
+            android:onClick="open_information_milestone_19"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/milestone_23"
-            android:id="@+id/radio_milestone23" />
+            android:id="@+id/radio_milestone23"
+            android:onClick="open_information_milestone_23"/>
 
         </RadioGroup>
 
