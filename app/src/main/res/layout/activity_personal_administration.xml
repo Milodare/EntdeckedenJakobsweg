@@ -48,7 +48,7 @@
 
         </LinearLayout>
 
-
+    <!-- ID wird in der java-Datei genutzt, um den Text mit Namen ausgeben zu können  -->
     <TextView
         android:id="@+id/message_text_view"
         android:layout_width="wrap_content"

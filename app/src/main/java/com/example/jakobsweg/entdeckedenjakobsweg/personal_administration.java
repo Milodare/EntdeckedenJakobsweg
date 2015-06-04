@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 
 public class personal_administration extends ActionBarActivity {
@@ -14,6 +15,17 @@ public class personal_administration extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_administration);
+
+        //own extensions//
+        //get the message from the intent//
+
+        Intent intent = getIntent();
+        String message = intent.getStringExtra("EXTRA_MESSAGE");
+
+        //get the text//
+        
+        TextView textView = (TextView) findViewById(R.id.message_text_view);
+        textView.setText(message);
     }
 
 

@@ -18,6 +18,16 @@
 
 
     <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/map_overallview_milestones"
+        android:src="@drawable/map_overallview_milestones"/>
+
+    <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.11" />
