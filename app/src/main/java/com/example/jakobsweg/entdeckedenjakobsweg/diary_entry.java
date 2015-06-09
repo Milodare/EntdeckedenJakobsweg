@@ -37,3 +37,5 @@ public class diary_entry extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+
+//comment//
