@@ -7,6 +7,7 @@
     tools:context="com.example.jakobsweg.entdeckedenjakobsweg.overallview_milestones"
     android:orientation="vertical"
     android:background="@drawable/signpost"
+    android:alpha=".75"
     android:weightSum="1">
 
 
