@@ -8,19 +8,19 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class information_milestone_19 extends ActionBarActivity {
+public class information_highlight_milestone_19_oldtown_leon extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_information_milestone_19);
+        setContentView(R.layout.activity_information_highlight_milestone_19_oldtown_leon);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_information_milestone_19, menu);
+        getMenuInflater().inflate(R.menu.menu_information_highlight_milestone_19_oldtown_leon, menu);
         return true;
     }
 
@@ -40,10 +40,6 @@ public class information_milestone_19 extends ActionBarActivity {
     }
 
 
-    // own stuff //
 
-    public void open_highlight_milestone_19_oldtown_leon (View view) {
-        Intent intent = new Intent(this,information_highlight_milestone_19_oldtown_leon.class);
-        startActivity(intent);
-    }
+
 }

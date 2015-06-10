@@ -197,8 +197,9 @@
         <ImageButton
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/auberge_orission"
-            android:id="@+id/imageButton" />
+            android:src="@drawable/highlight_milestone_19_oldtown_leon"
+            android:id="@+id/imageButton"
+            android:onClick="open_highlight_milestone_19_oldtown_leon"/>
 
         <Space
             android:layout_width="22dp"

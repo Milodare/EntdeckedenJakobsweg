@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.information_highlight_milestone_19_oldtown_leon"
+    android:weightSum="1">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Altstadt von León"
+        android:id="@+id/textView2" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14" />
+
+    <ImageView
+
+        android:src="@drawable/highlight_milestone_19_oldtown_leon"
+        android:id="@+id/map_milestone_19_image"
+        android:layout_width="355dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Info-Box:" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Die lichte, in freundlichen Geld- und Ockertönen gehaltene Altstadt Leóns
+ist eine der reizvollsten am Camino francés. Die Verkehrsberuhigung hat dem historischen
+Zentrum sein mitteralterliches Flair zurückgegeben. In den Bars und Restaurants des Barrio
+húmedo, des 'feuchten Viertels' rund um die Plaza Mayor, tobt, besonders am Wochenende,
+Leóns Nachtleben." />
+
+
+</LinearLayout>
