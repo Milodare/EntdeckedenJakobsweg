@@ -18,22 +18,26 @@
 
     <string name="title_activity_overallview_milestones">Übersicht der Etappen</string>
 
-    <string name="title_activity_info_hoehepunkt">Höhepunktinformation</string>
 
     <string name="title_activity_diary_overallview_milestones">Tagebuch-Übersicht der Etappen</string>
     <string name="milestone_11">11. Etappe: Belorado - San Juan de Ortega</string>
     <string name="milestone_12">12. Etappe: San Juan de Ortega - Burgos</string>
     <string name="milestone_19">19. Etappe: Reliegos - León</string>
     <string name="milestone_23">23. Etappe: Foncebadón - Ponferrada</string>
-    <string name="showinfo1">Anzeigen</string>
-    <string name="showinfo2">Anzeigen</string>
+    <string name="show_entry">Anzeigen</string>
+    <string name="new_entry">Neuer Eintrag</string>
 
     <string name="title_activity_diary_entry">Eintrag Tagebuch</string>
     <string name="speichern">speichern</string>
     <string name="hochladen">Erfahrungen teilen</string>
 
-    <string name="title_activity_info_streckenabschnitt_etappe1">Test</string>
+    <string name="title_activity_information_milestone_11">Etappe 11</string>
+    <string name="title_activity_information_milestone_12">Etappe 12</string>
+    <string name="title_activity_information_milestone_19">Etappe 19</string>
+    <string name="title_activity_information_milestone_23">Etappe 23</string>
 
+    <string name="title_activity_information_highlight_milestone_12_burgos_plaza_mayor">Plaza Mayor</string>
+    <string name="title_activity_information_highlight_milestone_12_burgos_catedral">Catedral</string>
 
 
 

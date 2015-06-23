@@ -1,3 +1,9 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -28,13 +34,13 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.14" />
 
-    <ImageView
+   <!-- <ImageView
 
         android:src="@drawable/map_milestone_11"
         android:id="@+id/map_milestone_11_image"
         android:layout_width="380dp"
         android:layout_height="200dp"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal" /> -->
 
     <Space
         android:layout_width="match_parent"
@@ -197,8 +203,9 @@
         <ImageButton
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/auberge_orission"
-            android:id="@+id/imageButton" />
+            android:src="@drawable/highlight_milestone_12_burgos_plaza_mayor"
+            android:id="@+id/imageButton"
+            android:onClick="open_information_highlight_milestone_12_burgos_plaza_mayor"/>
 
         <Space
             android:layout_width="22dp"
@@ -215,3 +222,6 @@
 
 
 </LinearLayout>
+
+
+    </ScrollView>

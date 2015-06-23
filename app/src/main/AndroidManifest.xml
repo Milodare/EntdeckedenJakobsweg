@@ -34,8 +34,32 @@
             android:label="@string/title_activity_diary_entry" >
         </activity>
         <activity
-            android:name=".information_milestone_11"
-            android:label="@string/title_activity_info_streckenabschnitt_etappe1" >
+        android:name=".information_milestone_11"
+        android:label="@string/title_activity_information_milestone_11" >
+    </activity>
+        <activity
+            android:name=".information_milestone_12"
+            android:label="@string/title_activity_information_milestone_12" >
+        </activity>
+        <activity
+            android:name=".information_milestone_19"
+            android:label="@string/title_activity_information_milestone_19" >
+        </activity>
+        <activity
+            android:name=".information_milestone_23"
+            android:label="@string/title_activity_information_milestone_23" >
+        </activity>
+        <activity
+            android:name=".information_highlight_milestone_12_burgos_plaza_mayor"
+            android:label="@string/title_activity_information_highlight_milestone_12_burgos_plaza_mayor" >
+        </activity>
+        <activity
+            android:name=".information_highlight_milestone_12_burgos_catedral"
+            android:label="@string/title_activity_information_highlight_milestone_12_burgos_catedral" >
+        </activity>
+        <activity
+            android:name=".information_highlight_milestone_19_oldtown_leon"
+             >
         </activity>
     </application>
 

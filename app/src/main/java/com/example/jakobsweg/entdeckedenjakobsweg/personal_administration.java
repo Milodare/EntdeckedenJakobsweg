@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class personal_administration extends ActionBarActivity {
@@ -56,6 +57,12 @@ public class personal_administration extends ActionBarActivity {
     public void open_overallview_milestones (View view){
 
         Intent intent= new Intent(this, overallview_milestones.class);
+        startActivity(intent);
+    }
+
+    public void open_diary_overallview_milestones (View view){
+
+        Intent intent= new Intent(this, diary_overallview_milestones.class);
         startActivity(intent);
     }
 }

@@ -1,9 +1,12 @@
 package com.example.jakobsweg.entdeckedenjakobsweg;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 
 public class information_milestone_11 extends ActionBarActivity {
@@ -35,5 +38,13 @@ public class information_milestone_11 extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    // own stuff //
+
+    public void open_information_highlight_milestone_12_burgos_plaza_mayor (View view) {
+
+        Intent intent = new Intent(this,information_highlight_milestone_12_burgos_plaza_mayor.class);
+        startActivity(intent);
     }
 }

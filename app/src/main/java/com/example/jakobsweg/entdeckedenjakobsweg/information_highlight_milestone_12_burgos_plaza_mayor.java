@@ -1,26 +1,24 @@
 package com.example.jakobsweg.entdeckedenjakobsweg;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class information_milestone_12 extends ActionBarActivity {
+public class information_highlight_milestone_12_burgos_plaza_mayor extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_information_milestone_12);
+        setContentView(R.layout.activity_information_highlight_milestone_12_burgos_plaza_mayor);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_information_milestone_12, menu);
+        getMenuInflater().inflate(R.menu.menu_information_highlight_milestone_12_burgos_plaza_mayor, menu);
         return true;
     }
 
@@ -39,16 +37,7 @@ public class information_milestone_12 extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    // own stuff //
 
-    public void open_information_highlight_milestone_12_burgos_plaza_mayor (View view) {
-        Intent intent = new Intent(this,information_highlight_milestone_12_burgos_plaza_mayor.class);
-        startActivity(intent);
 
-    }
 
-    public void open_information_highlight_milestone_12_burgos_catedral (View view) {
-        Intent intent = new Intent(this,information_highlight_milestone_12_burgos_catedral.class);
-        startActivity(intent);
-    }
 }

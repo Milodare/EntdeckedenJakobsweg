@@ -1,3 +1,9 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -6,9 +12,10 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.jakobsweg.entdeckedenjakobsweg.diaryoverallviewmilestones"
     android:orientation="vertical"
-    android:background="@drawable/signpost"
     android:alpha=".75"
-    android:weightSum="1">
+    android:weightSum="1"
+     >
+    <!--android:background="@drawable/signpost"-->
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,7 +51,7 @@
             android:layout_height="wrap_content"
             android:text="@string/milestone_11"
             android:id="@+id/radio_milestone_11"
-            android:onClick="showmilestone_11"/>
+            />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -64,20 +71,44 @@
             android:layout_height="wrap_content"
             android:text="@string/milestone_23"
             android:id="@+id/radio_milestone_23" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </RadioGroup>
 
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="178dp"
+        android:weightSum="1">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/showinfo1"
-        android:onClick="showCity1"
-        android:id="@+id/button3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_entry"
+            android:onClick="show_entry"
+            android:id="@+id/button3" />
 
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_entry"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="open_diary_entry"/>
+
+    </LinearLayout>
 
 
 </LinearLayout>
 
+</ScrollView>
 
 

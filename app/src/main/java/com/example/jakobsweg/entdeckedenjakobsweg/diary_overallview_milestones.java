@@ -1,11 +1,13 @@
 package com.example.jakobsweg.entdeckedenjakobsweg;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 
@@ -44,7 +46,31 @@ public class diary_overallview_milestones extends ActionBarActivity {
     //////////////////////own stuff    ///////////////
 
 
+    public void open_diary_entry(View view) {
 
+        Intent intent = new Intent(this, diary_entry.class);
+        startActivity(intent);
+    }
+}
+
+        //RadioGroup radioMilestones = (RadioGroup) findViewById(R.id.milestones);
+        //int selectedId = radioMilestones.getCheckedRadioButtonId();
+        //RadioButton selectedMilestone = (RadioButton) findViewById(selectedId);
+        //String cityText = selectedMilestone.getText().toString();
+
+
+        // gewählten Radiobutton ermitteln
+
+
+
+    //{
+
+
+        // Text auslesen
+        //String etappe = ...;
+        //intent.putExtra("ETAPPE",etappe);
+        //startActivity(intent);
+   // }
 
 
 
@@ -55,4 +81,4 @@ public class diary_overallview_milestones extends ActionBarActivity {
         // switch (selectedId)
 
     //}
-}
+//}
