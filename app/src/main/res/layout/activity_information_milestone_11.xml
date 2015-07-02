@@ -34,13 +34,13 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.14" />
 
-   <!-- <ImageView
+   <ImageView
 
         android:src="@drawable/map_milestone_11"
         android:id="@+id/map_milestone_11_image"
         android:layout_width="380dp"
         android:layout_height="200dp"
-        android:layout_gravity="center_horizontal" /> -->
+        android:layout_gravity="center_horizontal" />
 
     <Space
         android:layout_width="match_parent"

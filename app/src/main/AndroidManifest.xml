@@ -10,7 +10,6 @@
         <activity
             android:name=".diary_overallview_milestones"
             android:label="@string/app_name" >
-
         </activity>
         <activity
             android:name=".welcome"
@@ -34,9 +33,9 @@
             android:label="@string/title_activity_diary_entry" >
         </activity>
         <activity
-        android:name=".information_milestone_11"
-        android:label="@string/title_activity_information_milestone_11" >
-    </activity>
+            android:name=".information_milestone_11"
+            android:label="@string/title_activity_information_milestone_11" >
+        </activity>
         <activity
             android:name=".information_milestone_12"
             android:label="@string/title_activity_information_milestone_12" >
@@ -57,13 +56,13 @@
             android:name=".information_highlight_milestone_12_burgos_catedral"
             android:label="@string/title_activity_information_highlight_milestone_12_burgos_catedral" >
         </activity>
-        <activity
-            android:name=".information_highlight_milestone_19_oldtown_leon"
-             >
+        <activity android:name=".information_highlight_milestone_19_oldtown_leon" >
+        </activity>
+        <activity android:name=".information_highlight_milestone_11_iglesia_monacal" >
         </activity>
         <activity
-            android:name=".information_highlight_milestone_11_iglesia_monacal"
-            >
+            android:name=".Tipps"
+            android:label="@string/title_activity_tipps" >
         </activity>
     </application>
 

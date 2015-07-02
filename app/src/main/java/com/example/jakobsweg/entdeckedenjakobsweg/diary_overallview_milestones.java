@@ -49,28 +49,21 @@ public class diary_overallview_milestones extends ActionBarActivity {
     public void open_diary_entry(View view) {
 
         Intent intent = new Intent(this, diary_entry.class);
-        startActivity(intent);
-    }
+
+
+        RadioGroup radioMilestones = (RadioGroup) findViewById(R.id.milestones);
+        int selectedId = radioMilestones.getCheckedRadioButtonId();
+        RadioButton selectedMilestone = (RadioButton) findViewById(selectedId);
+        String etappe = selectedMilestone.getText().toString();
+        intent.putExtra("ETAPPE",etappe);
+        startActivity(intent);}
+
+
 }
 
-        //RadioGroup radioMilestones = (RadioGroup) findViewById(R.id.milestones);
-        //int selectedId = radioMilestones.getCheckedRadioButtonId();
-        //RadioButton selectedMilestone = (RadioButton) findViewById(selectedId);
-        //String cityText = selectedMilestone.getText().toString();
-
-
-        // gewählten Radiobutton ermitteln
 
 
 
-    //{
-
-
-        // Text auslesen
-        //String etappe = ...;
-        //intent.putExtra("ETAPPE",etappe);
-        //startActivity(intent);
-   // }
 
 
 

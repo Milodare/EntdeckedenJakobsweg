@@ -39,6 +39,10 @@
     <string name="title_activity_information_highlight_milestone_12_burgos_plaza_mayor">Plaza Mayor</string>
     <string name="title_activity_information_highlight_milestone_12_burgos_catedral">Catedral</string>
     <string name="title_activity_information_highlight_milestone_11_iglesia_monacal">Iglesia</string>
+    <string name="etappe">Etappe Tagebucheintrag</string>
+    <string name="title_activity_tipps">Tipps</string>
+
+    <string name="hello_world">Hello world!</string>
 
 
 

@@ -14,7 +14,7 @@
     android:orientation="vertical"
     android:weightSum="1">
 
-    <!-- miau ;O -->
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,6 +22,13 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Lege hier Deinen Tagebucheintrag an!"
          />
+
+    <TextView
+        android:id="@+id/message_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
 
     <Space
         android:layout_width="match_parent"
