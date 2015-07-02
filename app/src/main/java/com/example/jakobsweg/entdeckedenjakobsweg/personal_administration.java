@@ -65,4 +65,9 @@ public class personal_administration extends ActionBarActivity {
         Intent intent= new Intent(this, diary_overallview_milestones.class);
         startActivity(intent);
     }
+    public void open_tipps (View view){
+
+        Intent intent= new Intent(this, Tipps.class);
+        startActivity(intent);
+    }
 }
