@@ -61,6 +61,10 @@
             android:name=".information_highlight_milestone_19_oldtown_leon"
              >
         </activity>
+        <activity
+            android:name=".information_highlight_milestone_11_iglesia_monacal"
+            >
+        </activity>
     </application>
 
 </manifest>

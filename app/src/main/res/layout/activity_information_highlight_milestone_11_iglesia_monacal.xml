@@ -12,7 +12,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.information_highlight_milestone_12_burgos_catedral"
+    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.information_highlight_milestone_11_iglesia_monacal"
     android:weightSum="1">
 
 
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Catedral de Santa María"
+        android:text="Iglesia Monacal"
         android:id="@+id/textView2" />
 
     <Space
@@ -32,7 +32,7 @@
 
     <ImageView
 
-        android:src="@drawable/highlight_milestone_12_burgos_catedral"
+        android:src="@drawable/highlight_milestone_11_iglesia_monacal"
         android:layout_width="355dp"
         android:layout_height="186dp"
         android:layout_gravity="center_horizontal" />
@@ -56,10 +56,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Das wohl imposanteste Bauwerk von Burgos ist die Catedral de Santa María.
-        Der Bau der im gotischen Baustil errichten Kathedrale begann 1221 unter König Fernando III.
-        und wurde erst im 16. Jahrhundert beendet. Besonders bemerkenswert sind die beiden 84 Meter
-        hohen Türme der Westfasade, welche auch das Wahrzeichen von Burgos darstellen. " />
+        android:text="Auf dieser Strecke befindet sich die Iglesia Monacal, eine ehemalige Klosterkirche, welche Romanisches aus dem 12. Jhdt. Mit gotischen Elementen aus dem 14. Jahrhindert verbindet. Hier befindet sich auch das Grabmal San Juans, dessen Leben auf einem gotischen Baldachin dargestellt wird. Besonders bemerkenswert ist das Lichtwunder „Milagro de la Luz“. Bei dieser architektonischen Meisterleistung, fällt zur Tag- und Nachtgleiche für wenige Minuten ein Sonnenstrahl auf das Kapitell, links vom Altar, welches die Weihnachtsgeschichte darstellt. " />
 
 
 </LinearLayout>

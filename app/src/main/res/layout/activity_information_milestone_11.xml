@@ -184,7 +184,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Höhepunkte der Strecke:"
+        android:text="Höhepunkt der Strecke:"
         android:id="@+id/textView11" />
 
     <Space
@@ -203,20 +203,16 @@
         <ImageButton
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/highlight_milestone_12_burgos_plaza_mayor"
+            android:src="@drawable/highlight_milestone_11_iglesia_monacal"
             android:id="@+id/imageButton"
-            android:onClick="open_information_highlight_milestone_12_burgos_plaza_mayor"/>
+            android:onClick="open_information_highlight_milestone_11_iglesia_monacal"/>
 
         <Space
             android:layout_width="22dp"
             android:layout_height="match_parent"
             android:layout_weight="0.34" />
 
-        <ImageButton
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:id="@+id/imageButton2"
-            android:src="@drawable/llosterherberge_roncesvalles" />
+
 
     </LinearLayout>
 
