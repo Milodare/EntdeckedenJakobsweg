@@ -4,7 +4,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:src="@drawable/signpost"
+      android:scaleType="centerCrop"
+      />
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -14,8 +23,7 @@
     android:orientation="vertical"
     android:alpha=".75"
     android:weightSum="1"
-
-    android:background="@drawable/signpost">
+>
 
     <TextView
         android:layout_width="wrap_content"
@@ -107,8 +115,8 @@
     </LinearLayout>
 
 
-</LinearLayout>
-
+  </LinearLayout>
+</RelativeLayout>
 </ScrollView>
 
 
