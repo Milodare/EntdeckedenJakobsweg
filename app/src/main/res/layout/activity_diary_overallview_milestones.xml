@@ -34,12 +34,12 @@
         android:background="#ff277220"
         android:textColor="#fff3e5f7" />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.1" />
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.02" />
 
-    <TextView
+      <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -63,26 +63,29 @@
             android:layout_height="wrap_content"
             android:text="@string/milestone_11"
             android:id="@+id/radio_milestone_11"
-            />
+            android:background="#c2f3e5f7" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/milestone_12"
-            android:id="@+id/radio_milestone_12" />
+            android:id="@+id/radio_milestone_12"
+            android:background="#c2f3e5f7" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/milestone_19"
-            android:id="@+id/radio_milestone_19" />
+            android:id="@+id/radio_milestone_19"
+            android:background="#c2f3e5f7" />
 
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/milestone_23"
-            android:id="@+id/radio_milestone_23" />
+            android:id="@+id/radio_milestone_23"
+            android:background="#c2f3e5f7" />
 
         <Space
             android:layout_width="match_parent"
@@ -101,7 +104,9 @@
             android:layout_height="wrap_content"
             android:text="@string/show_entry"
             android:onClick="show_entry"
-            android:id="@+id/button3" />
+            android:id="@+id/button3"
+            android:background="#ff17415c"
+            android:textColor="#fff3e5f7" />
 
         <Space
             android:layout_width="wrap_content"
@@ -114,7 +119,10 @@
             android:text="@string/new_entry"
             android:id="@+id/button"
             android:layout_gravity="center_horizontal"
-            android:onClick="open_diary_entry"/>
+            android:onClick="open_diary_entry"
+            android:textColor="#fff3e5f7"
+            android:background="#ff17415c"
+            android:layout_weight="0.14" />
 
     </LinearLayout>
 

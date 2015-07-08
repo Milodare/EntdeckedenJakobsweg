@@ -29,7 +29,8 @@
 
     <Space
         android:layout_width="20dp"
-        android:layout_height="20dp" />
+        android:layout_height="20dp"
+        android:layout_weight="0.02" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -40,7 +41,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.11" />
+        android:layout_weight="0.02" />
 
     <TextView
         android:background="#d3277220"
@@ -54,7 +55,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.19" />
+        android:layout_weight="0.02" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -65,7 +66,8 @@
             android:layout_height="wrap_content"
             android:text="@string/milestone_11"
             android:id="@+id/radio_milestone11"
-            android:onClick="open_information_milestone_11"/>
+            android:onClick="open_information_milestone_11"
+            android:checked="false" />
 
         <RadioButton
             android:layout_width="wrap_content"

@@ -10,7 +10,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.Tipps">
+    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.Tipps"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,6 +20,18 @@
         android:text="Hier erhältst Du hilfreiche Tipps und Tricks für die Vorbereitung auf Deine Reise und für die Reise selbst: "
         android:background="#d3277220"
         android:textColor="#fff3e5f7" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT "
+        android:id="@+id/textView14" />
+
 
 </LinearLayout>
 

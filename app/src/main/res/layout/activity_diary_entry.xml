@@ -122,7 +122,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Speichern"
-            android:id="@+id/speichern" />
+            android:id="@+id/speichern"
+            android:background="#ff17415c"
+            android:textColor="#fff3e5f7" />
 
         <Space
             android:layout_width="wrap_content"
@@ -133,7 +135,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Erfahrungen teilen"
-            android:id="@+id/hochladen" />
+            android:id="@+id/hochladen"
+            android:textColor="#fff3e5f7"
+            android:background="#ff17415c"
+            android:layout_weight="0.19" />
     </LinearLayout>
 
 </LinearLayout>

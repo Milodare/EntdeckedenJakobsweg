@@ -70,12 +70,13 @@
         android:layout_weight="0.09" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Hier kannst Du Dein Profil verwalten."
         android:background="#d3277220"
-        android:textColor="#fff3e5f7" />
+        android:textColor="#fff3e5f7"
+        android:layout_weight="0.01" />
 
 
     <Space
@@ -84,31 +85,54 @@
         android:layout_weight="0.09" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="176dp"
         android:layout_height="wrap_content"
         android:text="Streckenabschnitte"
         android:id="@+id/streckenabschnitte"
-        android:onClick="open_overallview_milestones"/>
+        android:onClick="open_overallview_milestones"
+        android:background="#ff17415c"
+        android:textColor="#fff3e5f7" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tagebuch"
         android:id="@+id/tagebuch"
-        android:onClick="open_diary_overallview_milestones"/>
+        android:onClick="open_diary_overallview_milestones"
+        android:textColor="#fff3e5f7"
+        android:background="#ff17415c" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="176dp"
         android:layout_height="wrap_content"
         android:text="Stimmungsbarometer"
-        android:id="@+id/stimmungsbarometer" />
+        android:id="@+id/stimmungsbarometer"
+        android:background="#ff17415c"
+        android:textColor="#fff3e5f7" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="135dp"
         android:layout_height="wrap_content"
         android:text="Tipps und Tricks"
         android:id="@+id/tippsundtricks"
-        android:onClick="open_tipps"/>
+        android:onClick="open_tipps"
+        android:textColor="#fff3e5f7"
+        android:background="#ff17415c" />
 
 
 </LinearLayout>

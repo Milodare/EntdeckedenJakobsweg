@@ -34,7 +34,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.14" />
+        android:layout_weight="0.02" />
 
     <ImageView
 
@@ -47,7 +47,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.15" />
+        android:layout_weight="0.02" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.09" />
+        android:layout_weight="0.02" />
 
     <TableLayout
         android:layout_width="wrap_content"
@@ -182,7 +182,8 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -196,7 +197,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.16" />
+        android:layout_weight="0.02" />
 
     <LinearLayout
         android:orientation="horizontal"
