@@ -60,11 +60,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Die lichte, in freundlichen Geld- und Ockertönen gehaltene Altstadt Leóns
-ist eine der reizvollsten am Camino francés. Die Verkehrsberuhigung hat dem historischen
-Zentrum sein mitteralterliches Flair zurückgegeben. In den Bars und Restaurants des Barrio
-húmedo, des 'feuchten Viertels' rund um die Plaza Mayor, tobt, besonders am Wochenende,
-Leóns Nachtleben." />
+        android:text="Die lichte, in freundlichen Geld- und Ockertönen gehaltene Altstadt Leóns ist eine der reizvollsten am Camino francés. Die Verkehrsberuhigung hat dem historischen Zentrum sein mitteralterliches Flair zurückgegeben. In den Bars und Restaurants des Barrio húmedo, des 'feuchten Viertels' rund um die Plaza Mayor, tobt, besonders am Wochenende, Leóns Nachtleben." />
 
 
 </LinearLayout>

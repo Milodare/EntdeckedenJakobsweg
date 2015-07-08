@@ -60,14 +60,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Das Cruz de Ferro (Eisenkreuz) auf einer Hochebene des Monte Irago ist einer
-der schlichtesten, aber eindrücklichten Stellen am Jakobsweg. Aus einem großen Steinhaufen ragt ein
-langer, schlanker Eichenpfahl, darauf das kleine Eisenkreuz (das Original befindet sich seit 1976
-im Museo de los Caminos in Astorga). Der genaue Ursprung liegt im Dunkeln. Es könnte anfänglich ein
-römisches Wahrzeichen oder ein dem römischen Gott Merkur, dem Patron der Reisenden, gewidmeter Altar
-gewesen und später von den Christen übernommen worden sein. Oder es war ein Grenzpfosten der
-Ländereien, die König Alfonso VI. 1103 dem Eremiten Gaucelmo überließ. Sicher ist, dass seit
-Jahrhunderten die Pilger am Kreuz einen Stein niederlegen." />
+        android:text="Das Cruz de Ferro (Eisenkreuz) auf einer Hochebene des Monte Irago ist einer der schlichtesten, aber eindrücklichten Stellen am Jakobsweg. Aus einem großen Steinhaufen ragt ein langer, schlanker Eichenpfahl, darauf das kleine Eisenkreuz (das Original befindet sich seit 1976 im Museo de los Caminos in Astorga). Der genaue Ursprung liegt im Dunkeln. Es könnte anfänglich ein römisches Wahrzeichen oder ein dem römischen Gott Merkur, dem Patron der Reisenden, gewidmeter Altar gewesen und später von den Christen übernommen worden sein. Oder es war ein Grenzpfosten der Ländereien, die König Alfonso VI. 1103 dem Eremiten Gaucelmo überließ. Sicher ist, dass seit Jahrhunderten die Pilger am Kreuz einen Stein niederlegen." />
 
 
 </LinearLayout>

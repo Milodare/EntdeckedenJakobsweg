@@ -60,10 +60,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Das wohl imposanteste Bauwerk von Burgos ist die Catedral de Santa María.
-Der Bau der im gotischen Baustil errichten Kathedrale begann 1221 unter König Fernando III.
-und wurde erst im 16. Jahrhundert beendet. Besonders bemerkenswert sind die beiden 84 Meter
-hohen Türme der Westfasade, welche auch das Wahrzeichen von Burgos darstellen. " />
+        android:text="Das wohl imposanteste Bauwerk von Burgos ist die Catedral de Santa María. Der Bau der im gotischen Baustil errichten Kathedrale begann 1221 unter König Fernando III. und wurde erst im 16. Jahrhundert beendet. Besonders bemerkenswert sind die beiden 84 Meter hohen Türme der Westfasade, welche auch das Wahrzeichen von Burgos darstellen. " />
 
 
 </LinearLayout>

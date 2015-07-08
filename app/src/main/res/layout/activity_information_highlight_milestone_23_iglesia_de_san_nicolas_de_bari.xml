@@ -60,13 +60,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Noch vor Molinaseca passiert der Weg die neoklassizistische Pfarrkirche
-Parroquia de San Nicolas de Bari (17. Jh.). Eine ehemals romanische, im 16. Jh. neu erbaute
-Brücke über den Rio Meruelo führt die Pilger in die Calle Real, die von sehr gut erhaltenen
-ehemaligen Adelshäusern gesäumt ist. Mittelalterliche Pilger und Fuhrleute pflegten sich aus der
-Holztüre des Heiligtums Santuario de la Virgen de las Augustias einen Span als Glücksbringer zu
-schnitzen, bis man die Holztüre mit stabilen Eisenplatten sicherte. Das heutige, barocke Gebäude
-stammt aus dem 18. Jh." />
+        android:text="Noch vor Molinaseca passiert der Weg die neoklassizistische Pfarrkirche Parroquia de San Nicolas de Bari (17. Jh.). Eine ehemals romanische, im 16. Jh. neu erbaute Brücke über den Rio Meruelo führt die Pilger in die Calle Real, die von sehr gut erhaltenen ehemaligen Adelshäusern gesäumt ist. Mittelalterliche Pilger und Fuhrleute pflegten sich aus der Holztüre des Heiligtums Santuario de la Virgen de las Augustias einen Span als Glücksbringer zu schnitzen, bis man die Holztüre mit stabilen Eisenplatten sicherte. Das heutige, barocke Gebäude stammt aus dem 18. Jh." />
 
 
 </LinearLayout>
