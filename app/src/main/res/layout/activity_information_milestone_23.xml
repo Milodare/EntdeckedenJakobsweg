@@ -203,7 +203,7 @@
         <ImageButton
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/signpost"
+            android:src="@drawable/highlight_milestone_23_cruz_de_ferro"
             android:id="@+id/imageButton" />
 
         <Space
@@ -215,7 +215,7 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:id="@+id/imageButton2"
-            android:src="@drawable/signpost" />
+            android:src="@drawable/highlight_milestone_23_iglesia_de_san_nicolas_de_bari" />
 
     </LinearLayout>
 

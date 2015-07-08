@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.information_highlight_milestone_23_cruz_de_ferro"
+    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.information_highlight_milestone_23_iglesia_de_san_nicolas_de_bari"
     android:weightSum="1">
 
 
@@ -31,7 +31,7 @@
 
     <ImageView
 
-        android:src="@drawable/highlight_milestone_23_cruz_de_ferro"
+        android:src="@drawable/highlight_milestone_23_iglesia_de_san_nicolas_de_bari"
         android:id="@+id/map_milestone_19_image"
         android:layout_width="355dp"
         android:layout_height="186dp"
@@ -56,14 +56,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Das Cruz de Ferro (Eisenkreuz) auf einer Hochebene des Monte Irago ist einer
-der schlichtesten, aber eindrücklichten Stellen am Jakobsweg. Aus einem großen Steinhaufen ragt ein
-langer, schlanker Eichenpfahl, darauf das kleine Eisenkreuz (das Original befindet sich seit 1976
-im Museo de los Caminos in Astorga). Der genaue Ursprung liegt im Dunkeln. Es könnte anfänglich ein
-römisches Wahrzeichen oder ein dem römischen Gott Merkur, dem Patron der Reisenden, gewidmeter Altar
-gewesen und später von den Christen übernommen worden sein. Oder es war ein Grenzpfosten der
-Ländereien, die König Alfonso VI. 1103 dem Eremiten Gaucelmo überließ. Sicher ist, dass seit
-Jahrhunderten die Pilger am Kreuz einen Stein niederlegen." />
+        android:text="Noch vor Molinaseca passiert der Weg die neoklassizistische Pfarrkirche
+Parroquia de San Nicolas de Bari (17. Jh.). Eine ehemals romanische, im 16. Jh. neu erbaute
+Brücke über den Rio Meruelo führt die Pilger in die Calle Real, die von sehr gut erhaltenen
+ehemaligen Adelshäusern gesäumt ist. Mittelalterliche Pilger und Fuhrleute pflegten sich aus der
+Holztüre des Heiligtums Santuario de la Virgen de las Augustias einen Span als Glücksbringer zu
+schnitzen, bis man die Holztüre mit stabilen Eisenplatten sicherte. Das heutige, barocke Gebäude
+stammt aus dem 18. Jh." />
 
 
 </LinearLayout>
