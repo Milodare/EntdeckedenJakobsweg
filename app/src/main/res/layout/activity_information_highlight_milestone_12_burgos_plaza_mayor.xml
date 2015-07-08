@@ -23,7 +23,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Plaza Mayor"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView2"
+        android:background="#ff277220"
+        android:textColor="#fff3e5f7" />
 
     <Space
         android:layout_width="match_parent"
@@ -47,7 +49,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Info-Box:" />
+        android:text="Info-Box:"
+        android:background="#d3277220"
+        android:textColor="#fff3e5f7" />
 
     <Space
         android:layout_width="match_parent"
@@ -58,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wenn die Zeit für einen Stadtbummel reicht, lohnt sich der Besuch des Plaza
-        Mayor. Hier befindet sich auch das Denkmal für König Carlos III. " />
+Mayor. Hier befindet sich auch das Denkmal für König Carlos III. " />
 
 
 </LinearLayout>

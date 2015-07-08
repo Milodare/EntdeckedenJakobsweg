@@ -27,7 +27,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Foncebadón - Ponferrada"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView2"
+        android:background="#ff277220"
+        android:textColor="#fff3e5f7" />
 
     <Space
         android:layout_width="match_parent"
@@ -52,7 +54,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Etappen-Details:"
-        android:id="@+id/textView4" />
+        android:id="@+id/textView4"
+        android:textColor="#fff3e5f7"
+        android:background="#d3277220" />
 
     <Space
         android:layout_width="match_parent"
@@ -185,7 +189,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Höhepunkte der Strecke:"
-        android:id="@+id/textView11" />
+        android:id="@+id/textView11"
+        android:background="#d3277220"
+        android:textColor="#fff3e5f7" />
 
     <Space
         android:layout_width="match_parent"

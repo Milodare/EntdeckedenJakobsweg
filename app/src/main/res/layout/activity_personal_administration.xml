@@ -74,7 +74,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Hier kannst Du Dein Profil verwalten."
-         />
+        android:background="#d3277220"
+        android:textColor="#fff3e5f7" />
 
 
     <Space

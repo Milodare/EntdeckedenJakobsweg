@@ -30,18 +30,22 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Tagebuch"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:background="#ff277220"
+        android:textColor="#fff3e5f7" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.07" />
+        android:layout_weight="0.1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Bitte wähle Deinen heutigen Tagesabschnitt aus, um einen Tagebucheintrag zu verfassen."/>
+        android:text="Bitte wähle Deinen heutigen Tagesabschnitt aus, um einen Tagebucheintrag zu verfassen."
+        android:textColor="#fff3e5f7"
+        android:background="#d3277220" />
 
     <Space
         android:layout_width="match_parent"

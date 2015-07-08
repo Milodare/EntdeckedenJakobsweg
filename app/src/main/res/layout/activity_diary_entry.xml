@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Lege hier Deinen Tagebucheintrag an!"
-         />
+        android:background="#ff277220"
+        android:textColor="#fff3e5f7" />
 
     <TextView
         android:id="@+id/message_text_view"

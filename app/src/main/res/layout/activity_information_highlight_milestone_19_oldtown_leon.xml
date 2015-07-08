@@ -22,7 +22,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Altstadt von León"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView2"
+        android:background="#ff277220"
+        android:textColor="#fff3e5f7" />
 
     <Space
         android:layout_width="match_parent"
@@ -46,7 +48,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Info-Box:" />
+        android:text="Info-Box:"
+        android:textColor="#fff3e5f7"
+        android:background="#d3277220" />
 
     <Space
         android:layout_width="match_parent"

@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Herzlich Willkommen auf dem Spanischen Jakobsweg!"
-         />
+        android:background="#ff277220"
+        android:textColor="#fff3e5f7" />
 
 
     <Space
@@ -36,7 +37,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Gib hier Deinen Namen ein, um auf Deine persönliche Seite zu gelangen:"
-         />
+        android:textColor="#fff3e5f7"
+        android:background="#d3277220" />
 
     <Space
         android:layout_width="match_parent"

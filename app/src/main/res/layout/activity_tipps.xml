@@ -16,8 +16,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Hier erhälst du hilfreiche Tipps und Tricks für die Vorbereitung auf Deine Reise und für die Reise selbst: "
-         />
+        android:text="Hier erhältst Du hilfreiche Tipps und Tricks für die Vorbereitung auf Deine Reise und für die Reise selbst: "
+        android:background="#d3277220"
+        android:textColor="#fff3e5f7" />
 
 </LinearLayout>
 
