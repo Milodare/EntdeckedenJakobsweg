@@ -1,0 +1,72 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.jakobsweg.entdeckedenjakobsweg.information_highlight_milestone_23_cruz_de_ferro"
+    android:weightSum="1">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cruz de Ferro"
+        android:id="@+id/textView2" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14" />
+
+    <ImageView
+
+        android:src="@drawable/signpost"
+        android:id="@+id/map_milestone_19_image"
+        android:layout_width="355dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Info-Box:" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Das Cruz de Ferro (Eisenkreuz) auf einer Hochebene des Monte Irago ist einer
+der schlichtesten, aber eindrücklichten Stellen am Jakobsweg. Aus einem großen Steinhaufen ragt ein
+langer, schlanker Eichenpfahl, darauf das kleine Eisenkreuz (das Original befindet sich seit 1976
+im Museo de los Caminos in Astorga). Der genaue Ursprung liegt im Dunkeln. Es könnte anfänglich ein
+römisches Wahrzeichen oder ein dem römischen Gott Merkur, dem Patron der Reisenden, gewidmeter Altar
+gewesen und später von den Christen übernommen worden sein. Oder es war ein Grenzpfosten der
+Ländereien, die König Alfonso VI. 1103 dem Eremiten Gaucelmo überließ. Sicher ist, dass seit
+Jahrhunderten die Pilger am Kreuz einen Stein niederlegen." />
+
+
+</LinearLayout>
+
+
+    </ScrollView>
