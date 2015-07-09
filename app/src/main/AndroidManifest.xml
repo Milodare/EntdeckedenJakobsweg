@@ -64,6 +64,12 @@
             android:name=".Tipps"
             android:label="@string/title_activity_tipps" >
         </activity>
+        <activity
+            android:name=".information_highlight_milestone_23_iglesia_de_san_nicolas_de_bari" >
+        </activity>
+    <activity
+        android:name=".information_highlight_milestone_23_cruz_de_ferro" >
+</activity>
     </application>
 
 </manifest>

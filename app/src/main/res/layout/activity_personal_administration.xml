@@ -62,7 +62,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-         />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="#c2f3e5f7" />
 
     <Space
         android:layout_width="match_parent"

@@ -29,9 +29,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT FÜLLTEXT "
+        android:text="Tipps zur Vorbereitung auf die Reise:"
         android:id="@+id/textView14" />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipps für die Exkursion selbst:"
+        android:id="@+id/textView15" />
 
 </LinearLayout>
 
